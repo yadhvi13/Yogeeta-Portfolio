@@ -192,7 +192,7 @@ export default function PortfolioApp() {
                   // },
                   {
                     title: 'GTA-VI-Clone',
-                    description: 'Clean blog platform with markdown support and SEO optimizations.',
+                    description: 'Clean platform-clone made with React and Tailwind CSS,Provides the view of GTA-VI.',
                     url: 'http://localhost:5174/',
                   },
                 ].map((project, idx) => (
