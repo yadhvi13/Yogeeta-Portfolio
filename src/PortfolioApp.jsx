@@ -184,12 +184,12 @@ export default function PortfolioApp() {
                     description: 'A sleek, responsive portfolio built with React and Tailwind CSS.',
                     url: 'http://localhost:5173/?name=yogeeta&_replyto=yogeeta1312%40gmail.com&message=happy#contact',
                   },
-                  {
-                    title: 'E-commerce Store',
-                    description:
-                      'Modern e-commerce website with shopping cart, product filtering, and checkout.',
-                    url: '#',
-                  },
+                  // {
+                  //   title: 'E-commerce Store',
+                  //   description:
+                  //     'Modern e-commerce website with shopping cart, product filtering, and checkout.',
+                  //   url: '#',
+                  // },
                   {
                     title: 'GTA-VI-Clone',
                     description: 'Clean blog platform with markdown support and SEO optimizations.',
