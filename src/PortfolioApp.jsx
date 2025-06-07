@@ -116,7 +116,7 @@ export default function PortfolioApp() {
           >
             {/* Profile photo */}
             <img
-              src="public/yogeeta.png"
+              src="/yogeeta.png"
               alt="Profile"
               className="w-40 h-40 rounded-full object-cover scale-125 shadow-lg mb-6 transform transition-transform duration-300 hover:scale-105"
               loading="lazy"
