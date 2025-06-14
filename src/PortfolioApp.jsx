@@ -184,7 +184,7 @@ export default function PortfolioApp() {
                     description: 'A sleek, responsive portfolio built with React and Tailwind CSS.',
                     url: 'http://localhost:5173/?name=yogeeta&_replyto=yogeeta1312%40gmail.com&message=happy#contact',
                   },
-<<<<<<< HEAD
+
                   // {
                   //   title: 'E-commerce Store',
                   //   description:
@@ -194,7 +194,7 @@ export default function PortfolioApp() {
                   {
                     title: 'GTA-VI-Clone',
                     description: 'Clean platform-clone made with React and Tailwind CSS,Provides the view of GTA-VI.',
-=======
+                  },
                   {
                     title: 'E-commerce Store',
                     description:
@@ -204,7 +204,6 @@ export default function PortfolioApp() {
                   {
                     title: 'GTA-VI-Clone',
                     description: 'Clean blog platform with markdown support and SEO optimizations.',
->>>>>>> 09435d3 (Make portfolio website changes)
                     url: 'http://localhost:5174/',
                   },
                 ].map((project, idx) => (
