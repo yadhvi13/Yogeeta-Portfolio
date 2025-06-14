@@ -106,14 +106,14 @@ export default function PortfolioApp() {
 
 
         {/* Main content area */}
-        <main className="max-w-7xl mx-auto px-6 mt-12  grid grid-cols-1 md:grid-cols-[280px_1fr] gap-12 min-h-[70vh]">
+        <main className="max-w-7xl mx-auto px-6 mt-12 flex flex-col md:grid md:grid-cols-[280px_1fr] gap-12 min-h-[70vh]">
           {/* Profile Section */}
           <aside
-            id="profile"
-            className="sticky top-20 self-start bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center
-              hover:shadow-xl hover:ring-2 hover:ring-indigo-500 transition-shadow transition-ring duration-300"
-            aria-label="Profile Section"
-          >
+        id="profile"
+        className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 flex flex-col items-center text-center 
+               hover:shadow-xl hover:ring-2 hover:ring-indigo-500 transition 
+               md:sticky md:top-20 md:self-start"
+         >
             {/* Profile photo */}
             <img
               src="/yogeeta.png"
@@ -155,9 +155,9 @@ export default function PortfolioApp() {
           </aside>
 
           {/* Content Sections */}
-          <section className="space-y-20 text-gray-700">
+          <section className="space-y-20 text-gray-700 dark:text-gray-300">
             {/* About Section */}
-            <section id="about" className="max-w-4xl mx-auto" aria-labelledby="about-heading">
+            <section id="about" className="max-w-4xl mx-auto mb-24 scroll-mt-28" aria-labelledby="about-heading">
               <h2
                 id="about-heading"
                 className="text-4xl font-extrabold text-gray-900 mb-8 border-b border-gray-200 pb-3"
@@ -170,7 +170,7 @@ export default function PortfolioApp() {
             </section>
 
             {/* Projects Section */}
-            <section id="projects" className="max-w-4xl mx-auto" aria-labelledby="projects-heading">
+            <section id="projects" className="max-w-4xl mx-auto mb-24 scroll-mt-28" aria-labelledby="projects-heading">
               <h2
                 id="projects-heading"
                 className="text-4xl font-extrabold text-gray-900 mb-12 border-b border-gray-200 pb-3"
@@ -223,7 +223,7 @@ export default function PortfolioApp() {
             </section>
 
             {/* Skills Section */}
-            <section id="skills" className="max-w-4xl mx-auto" aria-labelledby="skills-heading">
+            <section id="skills" className="max-w-4xl mx-auto mb-24 scroll-mt-28" aria-labelledby="skills-heading">
               <h2
                 id="skills-heading"
                 className="text-4xl font-extrabold text-gray-900 mb-12 border-b border-gray-200 pb-3"
@@ -256,7 +256,7 @@ export default function PortfolioApp() {
         {/* Contact Footer Section */}
         <footer
           id="contact"
-          className="bg-gray-50 border-t border-gray-200 py-16 mt-24"
+          className="bg-gray-50 border-t border-gray-200 py-16 mt-20"
           // aria-labelledby="contact-heading"
         >
           <h2
