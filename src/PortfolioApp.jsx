@@ -195,17 +195,6 @@ export default function PortfolioApp() {
                     title: 'GTA-VI-Clone',
                     description: 'Clean platform-clone made with React and Tailwind CSS,Provides the view of GTA-VI.',
                   },
-                  {
-                    title: 'E-commerce Store',
-                    description:
-                      'Modern e-commerce website with shopping cart, product filtering, and checkout.',
-                    url: '#',
-                  },
-                  {
-                    title: 'GTA-VI-Clone',
-                    description: 'Clean blog platform with markdown support and SEO optimizations.',
-                    url: 'http://localhost:5174/',
-                  },
                 ].map((project, idx) => (
                   <a
                     key={idx}
